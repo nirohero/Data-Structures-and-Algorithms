@@ -15,6 +15,11 @@ def BinarySearch(array,num)
             upper_bound = midpoint - 1
         elsif(value_at_midpoint<num)
             lower_bound = midpoint + 1
+           end
+    end
+        #If we've narrowed the bounds until they've reached eachother that means the value we're searching for isn't within this array
+        return nil
+end 
 
         
 
